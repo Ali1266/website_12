@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <nav class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-list__item"><a href="#" class="menu-list__link">Фильмы</a></li>
+                        <li class="menu-list__item"><a href="#" class="menu-list__link">Сериалы</a></li>
+                        <li class="menu-list__item"><a href="#" class="menu-list__link">Мультики</a></li>
+                        <li class="menu-list__item"><a href="#" class="menu-list__link">Аниме</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="login-link">Регистрация</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="modal hide">
+        <div class="close">
+            <div></div>
+            <div></div>
+        </div>
+        <h2 class="modal-text">Регистрация нового аккаунта</h2>
+        <form class="form">
+            <input required type="text" placeholder="Никнейм" class="nickname">
+            <input required type="text" placeholder="E-mail" class="email">
+            <input required type="password" placeholder="Пароль" class="password">
+            <label class="label">
+                <input type="checkbox" checked>
+                <p>Запомнить меня</p>
+            </label>
+            <button type="submit" class="reg-btn">Зарегистрироваться</button>
+        </form>
+        <div class="modal-btns">
+            <button class="come-btn">Войти</button>
+            <button class="restore">Забыли пароль?</button>
+        </div>
+    </div>
+    
+    <main>
+        <div class="container">
+            <div class="main">
+                <div class="photo-content">
+                    <div class="series-photo">
+                        <img src="images/series-photo.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="content__year-time">
+                            <div class="content__year">
+                                <span>2011</span>
+                                <span>год</span>
+                            </div>
+                            <div class="content__time">
+                                <span>00:55</span>
+                                <span>длительность</span>
+                            </div>
+                        </div>
+                        <p class="content__text">
+                            К концу подходит время благоденствия, и лето, длившееся почти десятилетие, угасает. Вокруг средоточия власти Семи королевств, Железного трона, зреет заговор, и в это непростое время король решает искать поддержки у друга юности Эддарда Старка. В мире, где все – от короля до наемника – рвутся к власти, плетут интриги и готовы вонзить нож в спину, есть место и благородству, состраданию и любви. Между тем никто не замечает пробуждение тьмы из легенд далеко на Севере – и лишь Стена защищает живых к югу от нее.
+                        </p>
+                        <ul class="content__info">
+                            <li class="content__name info">
+                                <span>Название</span>
+                                <span>Game of Thrones</span>
+                            </li>
+                            <li class="content__rating info">
+                                <span>Рейтинг</span>
+                                <span>9,2</span>
+                            </li>
+                            <li class="content__countries info">
+                                <span>Страны</span>
+                                <span>Великобритания, США</span>
+                            </li>
+                            <li class="content__genres info">
+                                <span>Жанры</span>
+                                <span>Фэнтези, Драма, Боевик, Мелодрама, Приключения</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="actors">
+                    <h2 class="actors-text">Актерский состав</h2>
+                    <div class="actors-slider">
+                        <div class="actors-slide">
+                            <img src="images/actor-1.png" alt="">
+                            <p>Питер Динклэйдж</p>
+                        </div>
+                        <div class="actors-slide">
+                            <img src="images/actor-2.png" alt="">
+                            <p>Лина Хиди</p>
+                        </div>
+                        <div class="actors-slide">
+                            <img src="images/actor-3.png" alt="">
+                            <p>Эмилия Кларк</p>
+                        </div>
+                        <div class="actors-slide">
+                            <img src="images/actor-4.png" alt="">
+                            <p>Кит Харингтон</p>
+                        </div>
+                        <div class="actors-slide">
+                            <img src="images/actor-5.png" alt="">
+                            <p>Софи Тернер</p>
+                        </div>
+                        <div class="actors-slide">
+                            <img src="images/actor-6.png" alt="">
+                            <p>Мэйси Уильямс</p>
+                        </div>
+                        <div class="actors-slide">
+                            <img src="images/actor-7.png" alt="">
+                            <p>Николай Костер-Вальдау</p>
+                        </div>
+                        <div class="actors-slide">
+                            <img src="images/actor-8.png" alt="">
+                            <p>Иэн Глен</p>
+                        </div>
+                        <div class="actors-slide">
+                            <img src="images/actor-9.png" alt="">
+                            <p>Алфи Аллен</p>
+                        </div>
+                        <div class="actors-slide">
+                            <img src="images/actor-10.png" alt="">
+                            <p>Джон Брэдли</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="serial-info">
+                    <h2 class="serial-info__name">«Игра престолов» - 1 сезон смотреть онлайн</h2>
+                    <p class="serial-info__text">
+                        Итак, сериал стартовал. Действие 1 сезона сериала воспроизводит события, описанные в романе «Игра престолов» цикла «Песнь льда и пламени». Однако стоит отметить, что начало событий книги и сериала не совпадают. Повествование начинается с прибытия короля Роберта Баратеона со своей свитой в Винтерфелл, замок Старков. Джон Аррен, десница короля, погиб при невыясненных обстоятельствах ещё до событий сериала. Сейчас же король планирует сделать своим Десницей лорда Старка. Почти весь 1 сезон, который вы можете смотреть онлайн в данной категории сайта, посвящён взаимоотношениям Эддарда Старка и Роберта Баратеона, в то время, как на востоке готовится к нападению Визерис Таргариен, заручившийся поддержкой кхала Дрого.
+                    </p>
+                </div>
+                <div class="serial-series">
+                    <div class="series">
+                        <h3 class="series__number-name">1 сезон 1 серия: Зима близко</h3>
+                        <div class="series__content">
+                            <img src="images/series-1.jpg" alt="" class="series__content-img">
+                            <div class="series__content-text">
+                                <p>Самая первая серия телесериала "Игра престолов", в которой зрители познакомятся с семьёй Старков и семьёй короля.</p>
+                                <p>Эддард Старк, лорд Винтерфелла, казнит своего разведчика, который сбежал и не выполнил свою миссию. На казнь лорд берёт членов своей семьи, в том числе своего сына. На обратном пути они находят убитых оленя и лютоволка и находят 6 волчат, которых забирают себе. Прибыв в замок, Эддард узнаёт, что вскоре их навестит королевская свита.</p>
+                            </div>
+                        </div>
+                        <a href="#" class="series__link">Смотреть 1 сезон 1 серия: Зима близко</a>
+                    </div>
+                    <div class="series">
+                        <h3 class="series__number-name">1 сезон 2 серия: Королевский тракт</h3>
+                        <div class="series__content">
+                            <img src="images/series-2.jpg" alt="" class="series__content-img">
+                            <div class="series__content-text">
+                                <p>Бран находится в коме после падения со стены башни. Многие считают, что мальчик умрёт, но это не так. Мать не отходит от него.</p>
+                                <p>Джон покидает семью и отправляется служить в Ночной Дозор. Вместе с ним идут его дядя и Тирион.</p>
+                                <p>А тем временем за Узким морем Визерис продолжает мечтать о том, как он станет королём. Ему для этого лишь нужно войско, которое ему должен выделить его зять Дрого.</p>
+                            </div>
+                        </div>
+                        <a href="#" class="series__link">Смотреть 1 сезон 2 серия: Королевский тракт</a>
+                    </div>
+                    <div class="series">
+                        <h3 class="series__number-name">1 сезон 3 серия: Лорд Сноу</h3>
+                        <div class="series__content">
+                            <img src="images/series-3.jpg" alt="" class="series__content-img">
+                            <div class="series__content-text">
+                                <p>Джон постепенно привыкает к жизни в новых условиях на стене. К удивлению сира Аллисера Торне, он оказывается самым лучшим воином среди новобранцев. И это радует далеко не всех.</p>
+                                <p>Тем временем Кейтлин, жена Эддарда прибывает в королевскую Гавань, где у неё происходит неприятный разговор с Мизинцем. Сам Эддард тоже прибывает в Гавань, но позже.</p>
+                                <p>Тем временем Дейенерис получает уважение и признание от своего мужа-дикаря и его слуг. Её начинают считать королевой. И это не нравится Визерису, её брату.</p>
+                            </div>
+                        </div>
+                        <div class="series__btn"><a href="#" class="series__link">Смотреть 1 сезон 3 серия: Лорд Сноу</a></div>
+                    </div>
+                </div>
+                <div class="timer-block">
+                    <h2 class="timer-text">До выхода новой серии осталось:</h2>
+                    <div class="timer">
+                        <div class="days-block timer-column">
+                            <span class="days">00</span>
+                            <p>Дней</p>
+                        </div>
+                        <div class="border"></div>
+                        <div class="hours-block timer-column">
+                            <span class="hours">00</span>
+                            <p>Часов </p>
+                        </div>
+                        <div class="border"></div>
+                        <div class="minutes-block timer-column">
+                            <span class="minutes">00</span>
+                            <p>Минут </p>
+                        </div>
+                        <div class="border"></div>
+                        <div class="seconds-block timer-column">
+                            <span class="seconds">00</span>
+                            <p>Секунд</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comments-block">
+                    <div class="comments__form-block">
+                        <form>
+                            <p class="comments__form-title">Оставить комментарий</p>
+                            <textarea required placeholder="Ваш текст..." class="comments__form-text" id="comment-body"></textarea>
+                            <p class="comments__form-info-1">Имя или ник *</p>
+                            <p class="comments__form-info-2">Для отображения на сайте</p>
+                            <input required placeholder="" type="text" class="comments__form-name" id="comment-name">
+                            <button type="submit" class="comments__form-btn" id="comment-add">Отправить</button>
+                        </form>
+                    </div>
+                    <div class="comments" id="comments"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <p class="footer-text">Игра престолов © 2023 Все материалы взяты из публичных источников, все права принадлежат их владельцам. Наша почта gameofthrones@mail.com</p>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
